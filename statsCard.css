@@ -1,0 +1,84 @@
+/* Stylesheet for statsCard.html */
+
+body {
+    background-color: hsl(233, 47%, 7%);
+}
+
+#card {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+.leftCard {
+    background-color: hsl(244, 38%, 16%);
+    width: 460px;
+    display: inline-block;
+    padding: 43px 20px 40px 40px;
+    border-radius: 15px 0px 0px 15px;
+    margin-top: 15px;
+}
+.leftCard h1 {
+    color: hsl(0, 0%, 100%);
+    font-family: 'Inter', sans-serif;
+}
+.insights {
+    color: hsl(277, 64%, 61%);
+}
+.body {
+    font-family: 'Inter', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+    padding-bottom: 45px;
+}
+
+
+table th {
+    font-family: 'Inter', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+table td {
+    font-family: 'Lexend Deca', sans-serif;
+    font-size: 12px;
+    font-weight: lighter;
+    color: hsla(0, 0%, 100%, 0.6);
+}
+.h1 {
+    padding-right: 50px;
+}
+.h2 {
+    padding-left: 20px;
+}
+.h3 {
+    padding-left: 49px;
+}
+.d2, .d3 {
+    padding-left: 60px;
+}
+
+.rightCard {
+    display: inline-block;
+}
+.image {
+    display: inline-block;
+    width: 525px;
+    height: 343px;
+    border-radius: 0px 15px 15px 0px;
+    margin-left: -3px;
+    margin-bottom: -75px;
+    margin-top: -60px;
+    position: relative;
+    
+}
+#container {
+    display: inline-block;
+    width: 525px;
+    height: 343px;
+    background: hsl(277, 64%, 61%);
+    opacity: .55;
+    margin-left: 258px;
+    margin-top: 7px;
+    border-radius: 0px 15px 15px 0px;
+    position: absolute;
+}
