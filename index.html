@@ -1,33 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+    <head>
+        <title>Frontend Mentor | Stats Preview Card</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial=scale=1.0">
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Stats preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
-</head>
-<body>
-
-  Get insights that help your business grow.
-
-  Discover the benefits of data analytics and make better decisions regarding revenue, customer 
-  experience, and overall efficiency.
-
-  10k+ companies
-  314 templates
-  12m+ queries
-
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
-</body>
+        <link href="statsCard.css" rel="stylesheet" type="text/css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div id="card">
+            <section class="leftCard">
+                <h1>Get <strong class="insights">insights</strong> that help your businness grow.</h1>
+                <p class="body">Discover the benefits of data analytics and make better decisions regarding
+                    revenue, customore experience, and overall efficiency.
+                </p>
+                <table>
+                    <tr>
+                        <th class="h1">10k+</th>
+                        <th class="h2">314</th>
+                        <th class="h3">12M+</th>
+                    </tr>
+                    <tr>
+                        <td class="d1">COMPANIES</td>
+                        <td class="d2">TEMPLATES</td>
+                        <td class="d3">QUERIES</td>
+                    </tr>
+                </table>
+            </section>
+                <img src="images/image-header-desktop.jpg" alt="Image" class="image">
+                <div id="container"></div>
+        </div>
+    </body>
 </html>
